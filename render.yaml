@@ -2,9 +2,9 @@ services:
   - type: web
     name: ontario-waste-classifier
     env: python
-    buildCommand: pip install -r requirements.txt
-    startCommand: python app.py
+    region: oregon
     plan: free
-    envVars:
-      - key: FLASK_ENV
-        value: production
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "gunicorn app:app"
+    pythonVersion: 3.10.10
+
