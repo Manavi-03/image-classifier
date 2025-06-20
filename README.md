@@ -50,6 +50,50 @@ This is a **deep learning web app** that classifies an image of waste (plastic, 
 *(To be added)*  
 ![Confusion Matrix](confusionmatrix.png)
 
+---
+
+## 🚀 How to Use
+
+1. **Clone the Repository**  
+   ```bash
+   git clone https://github.com/your-username/waste-classifier.git
+   cd waste-classifier
+
+2. **Create a Virtual Environment (optional but recommended)**
+   ```bash
+    python -m venv venv
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   
+3. **Install Dependencies**
+   ```bash
+    pip install -r requirements.txt
+4. **Run the App**
+   ```bash
+    python app.py
+5. **Access the Web Interface**
+Open your browser and go to:
+http://localhost:5000
+
+---
+
+## 🌐 Future Plans
+**Cloud Hosting:**
+Planning to host the app on a cloud platform so recruiters and users can access it directly via a link without needing to set it up locally.
+
+**Model Optimization:**
+Reduce the model file size and improve misclassifications (e.g., plastic vs. glass).
+
+**UI Enhancements:**
+Improve mobile responsiveness and add accessibility features.
+
+👤 Author
+Manavi Manavi
+3rd-Year Computer Science @ McMaster University
+Aspiring Software Engineer
+
+
+
+
 
 
 
